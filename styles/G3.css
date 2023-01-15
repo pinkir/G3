@@ -39,7 +39,7 @@ nav a{
     font-size: 30px;
     padding-bottom: 20px;
 }
-.banner-des, .team-des, .facts-des, .fact-box-des{
+.banner-des, .team-des, .facts-des, .fact-box-des, .sponsor-des{
     color: #727272;
     font-size: 13px;
     padding-bottom: 20px;
@@ -128,7 +128,7 @@ nav a{
     color: white;
     background-color: #FF900E;
     border-radius: 5px;
-    padding: 30px 15px;
+    padding: 33px 17px;
     border: 0;
     margin-left: 400px;
     margin-top: 0;
@@ -168,4 +168,69 @@ nav a{
     display: flex;
     gap: 50px;
     justify-content: center;
+}
+/* sponsors section */
+
+.sponsor-text{
+    text-align: center;
+}
+.sponsor-head{
+    font-size: 30px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.sponsor-images{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.sponsor-img{
+    padding-top: 40px;
+    
+}
+/* contact us section */
+
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    background-color:hwb(90 95% 4%);
+}
+.contact-head{
+    padding-top: 90px;
+    padding-right: 50px;
+    font-size: 30px;
+}
+.form{
+    padding-top: 30px;
+}
+.form-box{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 0;
+    background-color: #72727226;
+}
+.form-btn{
+    color: #252121b1;
+    background-color: #FF900E;
+    padding: 10px;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+/* footer */
+.footer{
+    background-color: rgb(254, 245, 232);
+    text-align: center;
+    padding: 30px 200px;
+    margin-top: 20px;
+    
+}
+.footer-text{
+    color: #727272;
+    font-size: 12px;
 }
