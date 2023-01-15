@@ -254,14 +254,17 @@ nav a{
 .banner-text{
     /* padding-left: 15px; */
 }
+.banner-img{
+    width: auto;
+}
 .team-images{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
 .team-text{
-    padding-top: 0;
+    padding-top: 0px;
     text-align: center;
-    margin-left: 120px;
+    padding-left: 20px;
 }
 .features{
     align-items: flex-end;
@@ -271,12 +274,13 @@ nav a{
     gap: 0px;
 }
 .feature-text{
-    margin-left: 120px;
+    margin-left: 100px;
+    padding-left: 120px;
     padding: 0;
 
 }
 .facts-text{
-    margin-left: 120px;
+    /* margin-left: 120px; */
     text-align: center;
 
 }
@@ -284,7 +288,7 @@ nav a{
     flex-direction: column;
     align-items: center;
     gap: 0;
-    padding-left: 110px;
+    /* padding-left: 110px; */
 
 }
 .sponsor-images{
@@ -300,7 +304,7 @@ nav a{
     flex-direction: column;
     gap: 0;
     width: 400px;
-    padding-left: 100px;
+    margin-left: 200px;
 }
 .footer{
     background-color: white;
