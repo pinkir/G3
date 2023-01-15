@@ -3,8 +3,15 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap')
+
+
 
 /* header styles */
 .heade{
@@ -12,7 +19,7 @@
 .header{
     background-color:rgb(255, 247, 237);
     width: 1920px;
-    height: 1322px;
+    height: 1080px;
     justify-content: center;
 }
 .nav-options{
@@ -60,6 +67,7 @@
     background: #FF900E;
 }
 .header-img{
-    width: 800px;
-    height: 600px;
+    align-items: center;
+
+
 }
