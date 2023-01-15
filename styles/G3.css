@@ -15,7 +15,7 @@ main{
 
 /* header */
 header{
-    background-color: rgb(251, 251, 242);
+    background-color: rgb(254, 245, 232);
 }
 nav a{
     text-decoration: none;
@@ -39,7 +39,7 @@ nav a{
     font-size: 30px;
     padding-bottom: 20px;
 }
-.banner-des, .team-des{
+.banner-des, .team-des, .facts-des, .fact-box-des{
     color: #727272;
     font-size: 13px;
     padding-bottom: 20px;
@@ -77,7 +77,7 @@ nav a{
     padding-top: 130px;
 
 }
-.team-head{
+.team-head, .facts-head{
     padding-bottom: 20px;
     font-size: 32px;
 }
@@ -124,7 +124,48 @@ nav a{
 .feature-image{
     padding-top: 20px;
 }
+.btn-2{
+    color: white;
+    background-color: #FF900E;
+    border-radius: 5px;
+    padding: 30px 15px;
+    border: 0;
+    margin-left: 400px;
+    margin-top: 0;
 
+}
+.btn-font{
+    font-size: 17px;
+    font-weight: 700;
 
+}
+#button{
+    position: relative;
+    top: -50px;
+    left: -450px;
+}
 
+/* some facts section */
 
+.facts-head{
+    padding-top: 50px;
+}
+.fact-box{
+    height: 100px;
+    width: 120px;
+    border: 2px solid #FF900E;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 40px;
+    transition: width 1s, height 1s, transform 1s;
+}
+.fact-box:hover{
+    transform: rotate(50deg);
+
+}
+.facts-boxes{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
